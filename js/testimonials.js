@@ -64,32 +64,32 @@ class Testimonial {
   
   const testimonial1 = new CompanyTestimonials(
     "Luffy",
-    "Keren!",
+    "Keren!🔥🔥🔥",
     "assets/images/png/profile1.png"
   );
   const testimonial2 = new CompanyTestimonials(
     "Sanji",
-    "Mantap!",
+    "Mantap!🔥🔥🔥",
     "assets/images/png/profile2.png"
   );
   const testimonial3 = new CompanyTestimonials(
     "Zoro",
-    "Gokil!",
+    "Gokil!🔥🔥🔥",
     "assets/images/png/profile3.png"
   );
   const testimonial4 = new AuthorTestimonials(
     "Cavendish",
-    "Gila!",
+    "Gila!🔥🔥🔥",
     "assets/images/png/profile4.png"
   );
   const testimonial5 = new AuthorTestimonials(
     "Ace",
-    "Cool!",
+    "Cool!🔥🔥🔥",
     "assets/images/png/profile5.png"
   );
   const testimonial6 = new AuthorTestimonials(
     "Trafalgar Law",
-    "Perfect!",
+    "Perfect!🔥🔥🔥",
     "assets/images/png/profile6.png"
   );
   
