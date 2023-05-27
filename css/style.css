@@ -325,7 +325,7 @@ form button:hover{
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .card {
       width: 100%;
       flex-direction: column-reverse;
@@ -342,6 +342,11 @@ form button:hover{
   }
   
   @media only screen and (max-width: 550px) {
+    .card {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-left: 0;
+      }
   
     .item-collapse {
       display: none;
