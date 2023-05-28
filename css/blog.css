@@ -254,4 +254,8 @@ input[type="checkbox"]:checked + label:before {
   .button-project button{
     padding: 5px 10px;
   }
+
+  .bg-project{
+    padding: 0;
+  }
 } 
