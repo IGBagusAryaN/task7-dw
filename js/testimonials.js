@@ -61,6 +61,19 @@ class Testimonial {
       return this.#company + " (Mugiwara Crew)";
     }
   }
+  // Subclass
+  class AnotherCompanyTestimonials extends Testimonial {
+    #anothercompany = "";
+  
+    constructor(anothercompany, quote, image) {
+      super(quote, image);
+      this.#anothercompany = anothercompany;
+    }
+  
+    get author() {
+      return this.#anothercompany + " (Akagami Crew)";
+    }
+  }
   
   const testimonial1 = new CompanyTestimonials(
     "Luffy",
@@ -78,9 +91,9 @@ class Testimonial {
     "assets/images/png/profile3.png"
   );
   const testimonial4 = new AuthorTestimonials(
-    "Cavendish",
+    "X Drake",
     "Gila!🔥🔥🔥",
-    "assets/images/png/profile4.png"
+    "assets/images/png/profile7.png"
   );
   const testimonial5 = new AuthorTestimonials(
     "Ace",
@@ -92,8 +105,23 @@ class Testimonial {
     "Perfect!🔥🔥🔥",
     "assets/images/png/profile6.png"
   );
+  const testimonial7 = new AnotherCompanyTestimonials(
+    "Ben Beckman",
+    "Amazing!🔥🔥🔥",
+    "assets/images/png/profile4.png"
+  );
+  const testimonial8 = new AnotherCompanyTestimonials(
+    "Yasop",
+    "Good!🔥🔥🔥",
+    "assets/images/png/profile8.png"
+  );
+  const testimonial9 = new AnotherCompanyTestimonials(
+    "Lucky roo",
+    "Wow!🔥🔥🔥",
+    "assets/images/png/profile9.png"
+  );
   
-  let testimonialData = [testimonial1, testimonial2, testimonial3, testimonial4, testimonial5, testimonial6];
+  let testimonialData = [testimonial1, testimonial2, testimonial3, testimonial4, testimonial5, testimonial6, testimonial7, testimonial8, testimonial9];
   let testimonialHTML = "";
   
   for (let i = 0; i < testimonialData.length; i++) {
