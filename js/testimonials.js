@@ -101,7 +101,7 @@ class Testimonial {
     "assets/images/png/profile5.png"
   );
   const testimonial6 = new AuthorTestimonials(
-    "Trafalgar Law",
+    "God Enel",
     "Perfect!🔥🔥🔥",
     "assets/images/png/profile6.png"
   );
